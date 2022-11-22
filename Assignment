@@ -137,9 +137,9 @@ Ans===> A conditional statement in python, also called a condition constructs, i
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 
-Ans===> if is used to check the conidtion 
-	elif is also known as Nested if
-	else is used for the 
+Ans===> If : If the condition following the keyword if evaluates as true, the block of code will execute. Note that parentheses are not used before and after the condition check as in other languages.
+	Elif : Multiple conditions can be checked by including one or more elif checks after your initial if statement. Just keep in mind that only one condition will execute
+	Else : You can optionally add an else response that will execute if the condition is false: 
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
@@ -157,25 +157,16 @@ Q23. Write a code that displays the sum of all the even numbers from the given l
 numbers = [12, 75, 150, 180, 145, 525, 50]
 ```
 
-Ans===> test_list = [12, 75, 150, 180, 145, 525, 50]
- 
-# printing original list
-print("The original list is : " + str(test_list))
- 
+Ans===> 
+numbers = [12, 75, 150, 180, 145, 525, 50]
+result = 0
+for i in numbers:
+    if i%2 == 0:
+        result = result + i
+    else:
+        continue
 
-even_sum = 0
- 
-for sub in test_list:
-    for ele in str(sub):
-         
-        # adding in particular summation according to value
-        if int(ele) % 2 == 0:
-            even_sum += int(ele)
-        
- 
-# printing result
-print("Even digit sum : " + str(even_sum))
-
+print("Sum of even numbers : ",result)
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
 
