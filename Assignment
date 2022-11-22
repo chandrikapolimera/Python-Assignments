@@ -143,13 +143,13 @@ Ans===> if is used to check the conidtion
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
-Ans===> int_age=input("Enter the age")
-	result=int(int_age)
-
-	if (result>=18):
-    		print("I can vote")
-	else:
-    		print("I can't vote")
+Ans===>
+int_age=input("Enter the age : ")
+result=int(int_age)
+if (result>=18):
+    print("I can vote")
+else:
+    print("I can't vote")
 
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
