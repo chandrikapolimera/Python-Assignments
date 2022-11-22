@@ -182,9 +182,9 @@ if (num1> num2 and num1> num3):
 elif (num2 > num1 and num2> num3):
     print ("The Largest number is", num2)
 else:
-    print ("The Largest
+    print ("The Largest number is ",num3)
 	   
-	   Anothe way :)
+--Anothe way --
 
 a= input("Enter the first no")
 b=input("Enter the second no")
@@ -287,7 +287,9 @@ lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 Ans===>	lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 
 	a=lst[4]
-	print(a[2])
+	print(a[2]) 
+	 -- Another way --
+	 a = lst[4][2]
 
 Q38. Take a list as an input from the user and find the length of the list.
 
@@ -312,7 +314,9 @@ Ans===> lst = ["Welcome", "to", "Data", "course"]
 
 Q40. What is a tuple? How is it different from list?
 
-Ans===>	Tuple is to store multiple items in a single varibales
+Ans===>	Tuple is to store multiple items in a single varibales.
+A list is mutable. It can be changed once created.
+A tuple is immutable, It cannot be changed once created.
 
 Q41. How can you create a tuple in Python?
 
@@ -329,7 +333,7 @@ Ans===> In tuple, we cannot change or modify once tuple is cretaed, instead of t
 
 	print("The list before updating", var)
 
-	var.insert(1,"Kumar")
+	var.insert(1,"Chandrika")
 
 	print("After updated the value",var)
 
@@ -349,7 +353,7 @@ Ans===> a=input("Enter your name")
 	c=input("Enter your age")
 	z=(a,b,c)
 	print(type(z))
-	print(z.count("Ranjith"))
+	print(z.count(z))
 	
 
 Q45. What are sets in Python?
